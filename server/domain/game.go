@@ -1,13 +1,19 @@
 package domain
 
+import "github.com/oklog/ulid/v2"
+
 func NewGame() *Game {
 	return &Game{
-		Admin: Player{},
-		Hand:  make([]*Card, 0),
+		ID:         ulid.Make().String(),
+		JoinSecret: ulid.Make().String(),
+		Admin:      Player{},
+		Hand:       make([]*Card, 0),
 	}
 }
 
 type Game struct {
-	Admin Player  `json:"admin"`
-	Hand  []*Card `json:"deck"`
+	ID         string  `json:"id"`
+	JoinSecret string  `json:"joinSecret"`
+	Admin      Player  `json:"admin"`
+	Hand       []*Card `json:"deck"`
 }

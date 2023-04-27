@@ -1,11 +1,13 @@
 package domain
 
-import "github.com/google/uuid"
+import (
+	"github.com/oklog/ulid/v2"
+)
 
 func NewPlayer(title string) *Player {
 	return &Player{
-		ID:     uuid.New().String(),
-		Secret: uuid.New().String(),
+		ID:     ulid.Make().String(),
+		Secret: ulid.Make().String(),
 		Title:  title,
 		Alive:  true,
 		Card:   nil,
