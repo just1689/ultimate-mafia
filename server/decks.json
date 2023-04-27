@@ -1,0 +1,117 @@
+{
+  "default": [
+    {
+      "title": "Villager",
+      "description": "",
+      "color": "blue",
+      "abilities": []
+    },
+    {
+      "title": "Werewolf",
+      "description": "",
+      "color": "red",
+      "abilities": [
+        {
+          "title": "Group meal",
+          "description": "Werewolves eat a villager together at night.",
+          "reusable": true
+        }
+      ]
+    },
+    {
+      "title": "Hunter",
+      "description": "",
+      "color": "blue",
+      "abilities": [
+        {
+          "title": "Final shot",
+          "description": "Hunter takes one other player with them when they die.",
+          "reusable": false
+        }
+      ]
+    },
+    {
+      "title": "Witch",
+      "description": "",
+      "color": "blue",
+      "abilities": [
+        {
+          "title": "Save a life",
+          "description": "Save a player who was going to die.",
+          "reusable": false
+        },
+        {
+          "title": "Take a life",
+          "description": "Take the life of another player.",
+          "reusable": false
+        }
+      ]
+    },
+    {
+      "title": "Seer",
+      "description": "",
+      "color": "blue",
+      "abilities": [
+        {
+          "title": "Investigate a player",
+          "description": "The seer investigates whether a player is on the villager team or wolf team.",
+          "reusable": true
+        }
+      ]
+    },
+    {
+      "title": "Tanner",
+      "description": "The tanner wins if they die.",
+      "color": "brown",
+      "abilities": []
+    },
+    {
+      "title": "Mason",
+      "description": "The masons meet each other on the first night.",
+      "color": "blue",
+      "abilities": []
+    },
+    {
+      "title": "Cupid",
+      "description": "Cupid binds two players together on the first night. If one dies they both do.",
+      "color": "blue",
+      "abilities": []
+    },
+    {
+      "title": "Old lady",
+      "description": "The old lady shouts at a player and sends them out of the village for the day.",
+      "color": "blue",
+      "abilities": []
+    },
+    {
+      "title": "Wolf cub",
+      "description": "The wolf cub is a baby wolf. If it is killed the wolves kill two villages the next day.",
+      "color": "red",
+      "abilities": []
+    },
+    {
+      "title": "Pacifist",
+      "description": "The pacifist always votes against killing another player.",
+      "color": "blue",
+      "abilities": []
+    },
+    {
+      "title": "Bodyguard",
+      "description": "You select a player each night to keep safe.",
+      "color": "blue",
+      "abilities": [
+        {
+          "title": "Guard",
+          "description": "Another player is guarded and kept alive for the night.",
+          "reusable": true
+        }
+      ]
+    },
+    {
+      "title": "Village Idiot",
+      "description": "You always do the wrong thing.",
+      "color": "blue",
+      "abilities": []
+    }
+  ]
+}
