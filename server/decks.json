@@ -69,23 +69,41 @@
       "title": "Mason",
       "description": "The masons meet each other on the first night.",
       "color": "blue",
-      "abilities": []
+      "abilities": [
+        {
+          "title": "First night meetup",
+          "description": "The masons wake up on the first night to meet each other.",
+          "reusable": true
+        }
+      ]
     },
     {
       "title": "Cupid",
       "description": "Cupid binds two players together on the first night. If one dies they both do.",
       "color": "blue",
-      "abilities": []
+      "abilities": [
+        {
+          "title": "Even in death",
+          "description": "Cupid binds two players together. If one dies they both die.",
+          "reusable": true
+        }
+      ]
     },
     {
       "title": "Old lady",
       "description": "The old lady shouts at a player and sends them out of the village for the day.",
       "color": "blue",
-      "abilities": []
+      "abilities": [
+        {
+          "title": "Shout",
+          "description": "The old lady shouts at a player who leaves for the day part of the next turn.",
+          "reusable": true
+        }
+      ]
     },
     {
       "title": "Wolf cub",
-      "description": "The wolf cub is a baby wolf. If it is killed the wolves kill two villages the next day.",
+      "description": "The wolf cub is a baby wolf. If it is killed the wolves kill two villages the next day. The wolf cub can't win the game by themselves.",
       "color": "red",
       "abilities": []
     },
